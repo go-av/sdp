@@ -1,4 +1,4 @@
-package sdp 
+package sdp
 
 import (
 	"bytes"
@@ -34,7 +34,8 @@ const (
 // Line of SDP session.
 //
 // Form
-// 	<type>=<value>
+//
+//	<type>=<value>
 //
 // Where <type> MUST be exactly one case-significant character and
 // <value> is structured text whose format depends on <type>.
