@@ -1,4 +1,4 @@
-module github.com/panjjo/sdp
+module github.com/go-av/sdp
 
 go 1.14
 
