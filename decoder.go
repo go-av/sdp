@@ -226,11 +226,11 @@ func (d *Decoder) decodeKV() (k, v string, err error) {
 		}
 	}
 
-	if isValue && len(value) < 1 {
-		msg := fmt.Sprintf("attribute without value")
-		err := newSectionDecodeError(d.section, msg)
-		return "", "", err
-	}
+	// if isValue && len(value) < 1 {
+	// 	msg := fmt.Sprintf("attribute without value")
+	// 	err := newSectionDecodeError(d.section, msg)
+	// 	return "", "", err
+	// }
 
 	return string(key), string(value), nil
 }
